@@ -1,0 +1,55 @@
+AGENT LIST
+
+Core Infrastructure
+•	MITRE ATT&CK Mapping Agent
+•	IOC Extraction Agent
+•	Threat Intel Enrichment Agent
+•	Incident Report Generator
+•	Threat Hunting Query Generator
+
+SOC / Detection
+•	Snort / Suricata Alert Triage Agent
+•	Phishing Email Triage Agent
+•	YARA Rule Generator
+•	Sigma Rule Generator
+•	Windows Event Log Incident Analyzer
+•	Ransomware Early Warning Agent
+•	C2 Beaconing Pattern Analyzer
+•	DNS Tunneling Detection Agent
+•	Firewall Log Analyzer
+•	Nginx / Apache Access Log Attack Detector
+•	Honeypot Log Analysis Agent
+•	PowerShell Script Risk Analyzer
+•	Obfuscated JS Deobfuscation Assistant
+•	Linux Remote Access Attack Analyzer
+•	Multi-Platform Hunt Query Agent
+
+Forensics & IR
+•	DFIR Timeline Reconstruction Agent
+•	Memory Forensics Triage Agent (Volatility)
+•	Windows Persistence Analysis Agent
+•	PCAP Triage Agent
+•	Zeek Log Investigation Agent
+•	Malware String Analysis Agent
+•	Malware Imports / Classifiers Agent
+•	Binary Hardening Analyzer
+•	GDB / Memory Error Analysis Suite
+•	Patch Diffing Vulnerability Assistant
+•	CVE Explainer for Defenders
+•	Active Directory Attack Path Explainer
+
+AppSec & Cloud
+•	Container Security Suite
+•	Kubernetes YAML Security Reviewer
+•	Cloud IAM Misconfiguration Agent
+•	Secure Code Review Agent (C)
+•	Secure Code Review Agent (Python)
+•	Mobile App Security Agent
+
+New / Gap
+•	Supply Chain Dependency Audit Agent
+•	API Security Testing Agent
+•	Vulnerability Prioritization Agent
+•	Compliance Gap Analyzer (SOC2/ISO27001)
+•	Post-Quantum Crypto Migration Advisor
+
