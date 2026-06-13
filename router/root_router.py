@@ -41,3 +41,18 @@ if __name__ == "__main__":
     while True:
         user_input = input("You: ")
         print(router(user_input))
+
+"""
+your router is the “brain entry point”
+def route_input(text: str):
+    text = text.lower()
+
+    if "security" in text:
+        return "SECURITY BRANCH"
+    elif "attack" in text or "threat" in text:
+        return "THREAT BRANCH"
+    elif "admin" in text:
+        return "ADMIN BRANCH"
+    else:
+        return "UNKNOWN ROUTE"
+"""
