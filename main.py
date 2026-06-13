@@ -9,18 +9,16 @@ response = ollama.chat(
 
 print(response["message"]["content"])
 
-"""
-Make sure main.py actually calls the router
-from router.root_router import route_input
+from root_router import router
 
 def main():
+    print("=== BTREE Security AI ===")
     while True:
-        user_input = input("Input: ")
-
-        result = route_input(user_input)
+        user_input = input("\nYou: ").strip()
+        if not user_input:
+            continue
+        result = router(user_input)
         print(result)
 
 if __name__ == "__main__":
     main()
-
-"""
